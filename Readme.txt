@@ -1,4 +1,4 @@
 Front-end web development project
 
-project outline:To make a responsive a website template
-tools:Html5 and Css3
+Project Outline:To make a responsive website template
+Tools:Html5 and Css3
