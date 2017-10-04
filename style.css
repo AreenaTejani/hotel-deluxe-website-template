@@ -1,0 +1,480 @@
+
+* {
+box-sizing: border-box;
+}
+
+
+body{
+
+    margin: 0px; 
+	font-family: Arial Nova Light;
+	text-align: center;
+	background-image: url("img/Packages bg.png");
+
+}
+
+img{
+
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+
+/*header **************/
+
+header{
+background-color: rgb(42,46,51);
+	height: 70px;
+}
+
+
+nav ul{
+     margin: 0px;
+     padding: 0px;
+     list-style-type: none;
+}
+
+nav li{
+	display: inline-block;
+}
+
+	nav{
+		float:right;
+		padding: 22px;
+		padding-right: 20px;
+
+	}
+
+	header nav ul li  a{
+		font-family: calibri;
+   text-decoration: none;
+   text-transform: uppercase;
+   color: white;
+		font-size: 11px;
+		padding:10px; 
+
+}
+
+
+nav a:hover,
+nav a:focus{
+
+background-color: rgb(30,35,41);
+border-top: solid rgb(255,215,0);
+padding-top: 20px;
+padding-bottom: 25px;
+color: rgb(255,255,255);
+}
+
+	.logo{
+		float:left;
+        padding:22px;
+        padding-left: 30px;
+ 
+
+	}
+
+.sub-logo{
+	 font-size: 9px;
+     color:white;
+    font-style: italic;
+    float:left;
+	padding: 20px;
+	padding-left: 8px;
+   
+
+}
+
+
+
+/*header content********************************/
+
+.header-content{
+ background-color: rgb(0,204,255);
+ padding: 20px;
+  color:rgb(255,255,255);
+font-family: calibri;
+}
+
+.title-line-above{
+	font-size: 30px;
+	padding: 10px;
+}
+
+
+.title-header{
+	font-size:60px;
+	padding: 5px;
+
+
+	}
+
+.title-line-below{
+	font-size: 30px;
+	padding: 10px;
+	font-weight: normal;
+
+}
+
+
+/******attendence*/
+.attendence{
+//background-color: rgb(42,46,51);
+//border:solid 2px red;
+
+
+}
+
+
+.wrapper{
+
+//border:solid 2px red;
+background-color: rgb(42,46,51);
+display: grid;
+grid-template-columns: 13% 20% 20% 20% 20%
+
+
+}
+
+
+.box-con{
+text-align: left;
+//border:solid 2px blue;
+background-color: rgb(42,46,51);
+margin-right: 5px;
+margin-left: 10px;
+margin-bottom: 10px;
+margin-top: 10px;
+
+}
+
+
+
+.button{
+
+   // margin-bottom:20px;
+	padding-left:25px;
+	padding-right: 25px;
+	padding-top: 4px;
+	padding-bottom: 6px;
+	text-decoration: none;
+	color: rgb(42,46,51);
+	border-radius: 7px;
+	background-color: rgb(255,215,0);
+    font-size: 14px;
+    text-align: center;
+    font-family: calibri;
+    
+   
+     
+}
+
+.heading-attend{
+	
+	//border:solid 2px red;
+	font-size: 12px;
+	color: rgb(255,215,0); 
+	text-align:left;
+	}
+
+
+
+.input-box{
+	//border: solid 2px red;
+	padding-left:12px;
+	padding-right: 12px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-radius: 7px;
+	background-color: rgb(255,255,255);
+    width:100%;
+}
+
+
+div input{
+	border:none;
+	padding-left: 3px;
+	width:150px;
+}
+
+
+
+
+
+
+
+/***Slider content*/
+
+.slider-content{
+	background-image: url("img/Packages bg.png");
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+
+
+.title{
+	color:black;
+	font-size:60px;
+	font-family:Palace Script MT;
+	font-weight: normal;
+		//border:solid 2px red;
+		margin:0px;
+}
+
+.sub-title{
+
+	font-size:12px;
+	font-family:corbel;
+padding-left: 60px;
+padding-right: 60px;
+	//border:solid 2px red;
+}
+
+
+#slider{
+	display:grid;
+	grid-template-columns: 15% 10% 17% 17% 17% 10%
+
+}
+
+.img{  
+
+//border: solid 2px red;
+ width: 200px;
+ height: 200px;
+border-radius:210px;
+padding-left: 10px;
+padding-right: 10px;
+}
+
+.arrows{
+margin-top:50px;
+cursor:pointer;
+}
+
+
+
+
+
+
+
+
+/***Room type content*********************/
+
+.Room-type-content{
+	background-image: url("img/main background.png");
+	padding: 30px;
+
+	}
+
+
+.room-pics{
+	//border:solid 2px red;
+	padding: 0px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-auto-rows: minmax(100px, auto);
+  grid-gap: 5px;
+  
+	
+	
+}
+
+
+#f1{
+
+	grid-column: 1;
+     grid-row: 1;
+}
+
+#f2{
+	grid-column: 2;
+  grid-row: 1;
+}
+
+
+#f3{
+	grid-column: 3;
+ grid-row: 1;
+}
+
+#f4{
+ grid-row: 2;
+	grid-column: 1;
+	
+}
+
+#f5{
+ grid-row: 2;
+	grid-column: 2;
+	
+}
+
+#f6{
+ grid-row: 2;
+	grid-column: 3;
+	
+}
+
+
+.images{
+height: 130px;
+width:100%;
+
+}
+
+
+.room-heading{
+font-size:20px;
+font-family:corbel;
+font-weight: normal;
+margin:0px;
+}
+
+.caption{
+
+	font-size:10px;
+	font-family:corbel;
+	
+}
+
+
+.icons{
+	margin-top: 10px;
+}
+
+
+
+/******Quote section*/
+
+.quote{
+	background-color:rgb(255,215,0); 
+
+  }
+
+
+.quote-div{
+         // border:solid 2px red;
+          padding: 30px;
+
+
+}
+
+
+#num{
+font-family: arialnovalight;
+font-weight: normal;
+font-size: 60px;
+
+
+}
+
+.quote-heading{
+	margin: 0px;
+    padding:0px;
+	color:white;
+	font-size:40px;
+	font-family:calibri;
+	font-weight: normal;
+
+
+}
+
+.quotation{
+	margin:0px;
+	padding:20px;
+	font-weight: normal;
+	color:white;
+	font-style: italic;
+	font-size:18px;
+	font-family:corbel;}
+
+
+	.footer{
+ 
+  background-color: rgb(42,46,51);
+  //border:solid 2px yellow;
+  padding: 20px;
+margin: 0px;
+display: grid;
+  grid-template-columns: 20% 15% 1fr 1fr;
+  padding-left:180px;
+
+
+
+}
+
+
+footer ul{
+//border:solid 2px red;
+color: rgb(255,255,255);
+list-style-type: none;
+text-align: left;
+margin: 0px;
+padding: 0px;
+
+}
+
+.f-heading{
+	padding: 5px;
+	font-size: 15px;
+}
+
+.f-content{
+	padding: 5px;
+    font-size: 10px;
+    font-weight: normal;  
+
+}
+
+.f-contentt{
+	padding: 2px;
+    font-size: 10px;
+    font-weight: normal; 
+    //border:solid 2px red; 
+
+}
+
+
+.button-small{
+	color: rgb(0,0,0);
+	border-radius: 5px;
+	padding: 2px;
+	font-weight: bold;
+	font-size: 10px;
+	padding-left:18px; 
+	padding-right:18px;
+	margin-left: 3px;
+    
+}
+
+.one-button{
+	
+	padding:2px;
+	padding-left:10px; 
+	padding-right:10px;
+}
+
+.dates{
+	padding: 0px;
+	margin: 0px;
+	font-size: 8px;
+	color: rgb(255,215,0);
+}
+
+.reg-val{
+	//border:solid 2px red;
+	margin: 0px;
+	padding: 0px;
+}
+.register{
+border-radius:10px;
+border: solid 1px black;
+background:none;    
+padding: 3px; 
+ width: 150px;
+
+}
